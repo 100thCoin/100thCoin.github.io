@@ -5,7 +5,19 @@ body {
 	background-color:#461F33;
 }
 
+ul {
+  list-style: none; /* Remove default bullets */
+}
+ul li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: white; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  float: left;
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -0.9em; /* Also needed for space (tweak if needed) */
+  margin-top: 0.25em; /* Also needed for space (tweak if needed) */
 
+}
 
 .center{
   margin: auto;
