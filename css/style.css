@@ -34,6 +34,11 @@ ul li::before {
   max-width: 1000px;
 }
 
+.scale iframe{
+	width:84%;
+	height:100%;
+}
+
 .scaleLogo{
   aspect-ratio: 512/318;
   margin: auto;
@@ -224,7 +229,7 @@ a:hover, a:visited, a:link, a:active
 }
 
 
-@font-face { font-family: AlteHaasGroteskBold; src : url('fonts/AlteHaasGroteskBold.ttf');}
+@font-face { font-family: AlteHaasGroteskBold; src : url('../fonts/AlteHaasGroteskBold.ttf');}
 h2{
 	font-family: AlteHaasGroteskBold;
 	font-size: 32px;
@@ -245,9 +250,14 @@ h1{
 	text-align: center;
 	padding-top = 0px;
 }
+h3{
+	font-family: helvetica;
+	font-size: 24px;
+	color:#F0F0F0;
+	margin:0px;
+	text-align: center;
 
-
-
+}
 
 
 
