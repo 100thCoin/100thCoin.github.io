@@ -1,0 +1,305 @@
+body {
+	background-color:#461F33;
+}
+.footer {
+	background-color:#461F33;
+}
+
+
+
+.center{
+  margin: auto;
+  width: 100%;
+  padding-top: 36px;
+  text-align: center;
+}
+
+.scale{
+  aspect-ratio: 16/9;
+  margin: auto;
+  width: 100%;
+  padding: 4px;
+  text-align: center;
+  max-height: 900px;
+  max-width: 1000px;
+}
+
+.scaleLogo{
+  aspect-ratio: 512/318;
+  margin: auto;
+  padding: 0px;
+  text-align: center;
+  max-height: 318px;
+  max-width: 512px;
+}
+
+img {
+  pointer-events: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.pageTop {
+	width: 100%;
+
+}
+
+.pageTop2{
+	width: 100%;
+
+	background-image: url("../images/background_bush.png");
+	background-repeat: repeat-x;
+}
+
+.parallax {	
+  background-image: url("../images/background_stars.png");
+  background-repeat: repeat-x;
+  background-attachment: fixed;
+  perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.parallaxLayer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.parallaxLayer1
+{
+	background-image: url("../images/background_parallax1.png");
+	background-repeat: repeat-x;
+	transform: translateZ(-1px) scale(2);
+}
+.parallaxLayer2
+{
+	background-image: url("../images/background_parallax2.png");
+	background-repeat: repeat-x;
+	transform: translateZ(-0.5px) scale(1.5);
+}
+
+.pageMiddle {
+	width: 100%;
+	background-color: #572840;
+
+}
+
+.pageBottom {
+	background-image: url("../images/footer.png");
+	width: 100%;
+	min-height:128px;
+	/*background-color: #442032;*/
+
+}
+
+
+.credits{
+  margin: auto;
+  width: 100%;
+  padding-bottom: 12px;
+  text-align: center;
+  font-family: helvetica;
+  font-size: 18px;
+  color:#cf89a2;
+  margin:0px;
+  text-align: center;
+}
+
+
+.wrapper {
+	width: 90%;
+    overflow: hidden;
+    margin: auto;
+	max-width: 2000px;
+
+}
+
+
+.middleLeft {
+	width: 48%;
+	min-height: 200px;
+
+	max-height: 1200px;
+}
+.middleRight {
+	width: 50%;
+	min-height: 200px;
+
+    float:right;
+	max-height: 1400px;
+    overflow: hidden;
+}
+.middleLeftDown {
+	width: 48%;
+	min-height: 200px;
+	max-height: 200px;
+	padding-top: 20px;
+}
+@media (max-width: 1000px) {
+	.middleLeft {
+		width: 100%;
+		clear:both;
+
+	}
+	.middleRight {
+		width: 100%;
+		min-height: 0px;
+
+		float:top;
+		overflow: hidden;
+	}
+	.middleLeftDown {
+	width: 100%;
+	min-height: 200px;
+	max-height: 200px;
+	}
+}
+
+body{
+	margin: auto;
+	padding: 0px;
+
+}
+
+.storeButton{
+  border-radius: 25px;
+  padding: 20px;
+  width: 100%;
+  height: 150px; 
+  background-color: #303030;
+
+}
+
+.storeButton:hover{
+  border-radius: 20px;
+  background-color: #202020;
+  padding: 20px;
+  width: 100%;
+  height: 150px; 
+}
+
+
+.contactButton{
+  border-radius: 25px;
+  padding: 10px;
+  width: 100%;
+  height: 50px; 
+  background-color: #606060;
+  text-align: center;
+
+}
+
+.contactButton:hover{
+  border-radius: 20px;
+  background-color: #404040;
+  padding: 8px;
+  width: 100%;
+  height: 50px; 
+  text-align: center;
+
+}
+
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
+
+
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+   max-height: 1000px;
+  position: relative;
+  margin: auto;
+  padding: 8px;
+
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
