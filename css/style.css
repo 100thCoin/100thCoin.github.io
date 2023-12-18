@@ -137,7 +137,8 @@ img {
     overflow: hidden;
     margin: auto;
 	max-width: 2000px;
-	padding: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 
