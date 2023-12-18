@@ -83,13 +83,13 @@ img {
 
 .parallaxLayer1
 {
-	background-image: url("../images/background_parallax_1.png");
+	background-image: url("../images/background_parallax1.png");
 	background-repeat: repeat-x;
 	transform: translateZ(-1px) scale(2);
 }
 .parallaxLayer2
 {
-	background-image: url("../images/background_parallax_2.png");
+	background-image: url("../images/background_parallax2.png");
 	background-repeat: repeat-x;
 	transform: translateZ(-0.5px) scale(1.5);
 }
