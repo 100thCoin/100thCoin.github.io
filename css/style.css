@@ -137,6 +137,7 @@ img {
     overflow: hidden;
     margin: auto;
 	max-width: 2000px;
+	padding: 10px;
 }
 
 
@@ -149,7 +150,6 @@ img {
 .middleRight {
 	width: 50%;
 	min-height: 200px;
-
     float:right;
 	max-height: 1400px;
     overflow: hidden;
