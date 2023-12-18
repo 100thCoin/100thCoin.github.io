@@ -1,6 +1,4 @@
-body {
-	background-color:#461F33;
-}
+
 .footer {
 	background-color:#461F33;
 }
@@ -43,6 +41,11 @@ ul li::before {
   text-align: center;
   max-height: 318px;
   max-width: 512px;
+}
+
+.scaleLogo img{
+	height: 100%;
+	width: 100%;
 }
 
 img {
@@ -215,11 +218,41 @@ body{
 
 }
 
-
 a:hover, a:visited, a:link, a:active
 {
     text-decoration: none;
 }
+
+
+@font-face { font-family: AlteHaasGroteskBold; src : url('fonts/AlteHaasGroteskBold.ttf');}
+h2{
+	font-family: AlteHaasGroteskBold;
+	font-size: 32px;
+	color:white;
+	text-shadow: 0px 3px #626988;
+}
+
+p{
+	font-family: corbel;
+	font-size: 19px;
+	color:white;
+}
+h1{
+	font-family: AlteHaasGroteskBold;
+	font-size: 64px;
+	color:white;
+	text-shadow: 0px 6px #626988;
+	text-align: center;
+	padding-top = 0px;
+}
+
+
+
+
+
+
+
+
 
 
 
