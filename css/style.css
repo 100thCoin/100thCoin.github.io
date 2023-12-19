@@ -44,8 +44,6 @@ ul li::before {
 .scaleLogo{
   aspect-ratio: 512/318;
   margin: auto;
-  padding-top: 4px;
-  padding-bottom: 4px;
   padding-left : 8px;
   padding-right : 8px;
   text-align: center;
