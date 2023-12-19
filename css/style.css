@@ -30,7 +30,7 @@ ul li::before {
 .scale{
   aspect-ratio: 16/9;
   margin: auto;
-  padding: 4px;
+  padding-top: 4px;
   text-align: center;
   max-height: 900px;
   max-width: 1000px;
@@ -44,7 +44,10 @@ ul li::before {
 .scaleLogo{
   aspect-ratio: 512/318;
   margin: auto;
-  padding: 0px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left : 8px;
+  padding-right : 8px;
   text-align: center;
   max-height: 318px;
   max-width: 512px;
