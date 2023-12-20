@@ -229,7 +229,7 @@ h2{
 	text-shadow: 0px 3px #626988;
 }
 
-@font-face { font-family: Corbel; src : url('../fonts/CORBEL.ttf');}
+@font-face { font-family: Corbel; src : url('../fonts/CORBEL.TTF');}
 p{
 	font-family: corbel, Corbel;
 	
