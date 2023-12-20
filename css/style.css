@@ -273,10 +273,19 @@ h1{
 
 }
 
+
 /* Hide the images by default */
 .mySlides {
   display: none;
 }
+
+.mySlides img {
+  pointer-events: auto;
+  -moz-user-select: auto;
+  -webkit-user-select: auto;
+  user-select: autos;
+}
+
 
 /* Next & previous buttons */
 .prev, .next {
