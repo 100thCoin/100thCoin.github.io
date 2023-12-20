@@ -116,7 +116,6 @@ img {
 	width: 100%;
 	min-height:128px;
 	/*background-color: #442032;*/
-
 }
 
 
@@ -138,8 +137,8 @@ img {
     overflow: hidden;
     margin: auto;
 	max-width: 2000px;
-	padding-left: 10px;
-	padding-right: 10px;
+	padding-left: 16px;
+	padding-right: 16px;
 }
 
 
@@ -230,8 +229,10 @@ h2{
 	text-shadow: 0px 3px #626988;
 }
 
+@font-face { font-family: Corbel; src : url('../fonts/CORBEL.ttf');}
 p{
-	font-family: corbel;
+	font-family: corbel, Corbel;
+	
 	font-size: 19px;
 	color:white;
 }
@@ -241,11 +242,12 @@ h1{
 	color:white;
 	text-shadow: 0px 6px #626988;
 	text-align: center;
-	padding-top = 0px;
+	padding-top: 0px;
 }
-h3{
-	font-family: helvetica;
-	font-size: 24px;
+.contactButton p{
+	font-family: AlteHaasGroteskBold, Corbel;
+	font-weight: bold;
+	font-size: 32px;
 	color:#F0F0F0;
 	margin:0px;
 	text-align: center;
@@ -267,7 +269,7 @@ h3{
    max-height: 1000px;
   position: relative;
   margin: auto;
-  padding: 8px;
+  padding: 0px;
 
 }
 
@@ -294,7 +296,7 @@ h3{
 
 /* Position the "next button" to the right */
 .next {
-  right: 0;
+  right: 0px;
   border-radius: 3px 0 0 3px;
 }
 
